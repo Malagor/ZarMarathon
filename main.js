@@ -53,6 +53,8 @@ function init() {
     clearLog();
     inLog('Start Game!\n------------------\n');
 
+    round = 1; 
+
     resetCharacter(character);
     resetCharacter(enemy);
 
